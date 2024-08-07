@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Airbnb Cereal VF, Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+}
+.nav1{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: aquamarine; */
+}
+.nsec1{
+    margin-left: 60px;
+    padding-top: 10px;
+    /* align-items: center; */
+}
+.nsec2{
+    display: flex;
+    font-size: 16px;
+    gap: 30px;
+    color:#222222 ;
+    align-items: center;
+    margin-left: 125px;
+}
+.nsec3{
+    display: flex;
+    font-size: 16px;
+    margin-right: 75px;
+    align-items: center;
+    padding-top: 10px;
+}
+.nsec31{
+    display: flex;
+    width: 85px;
+    height: 48px;
+    border-radius: 30px;
+    border: 0.2px solid rgb(216, 211, 211);
+    /* background-color: blanchedalmond; */
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.nsec32{
+    width: 46px;
+    height: 42px;
+    padding-top: 25px;
+}
+.nsec33{
+    width: 148px;
+    height: 42px;
+    padding-top: 25px;
+}
+
+
+
+
+@media only screen and (max-width : 950px){
+    .nsec2{
+        margin-top: 80px;
+    }
+    .nsec3{
+        padding-top: 0px;
+    }
+}
+@media only screen and (max-width : 1127px){
+    .nsec1lg2{
+        visibility: hidden;
+    }
+}
+@media only screen and (max-width : 743.5px){
+    .nav1{
+        visibility: hidden;
+    }
+}
